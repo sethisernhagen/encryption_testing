@@ -7,7 +7,10 @@ from cryptography.hazmat.backends import default_backend
 # 1fc6205fa5c73aa5abe0bfcb1933d3ee31b0ba70de5ddcee4b8ec42fec11fa236ceeaef4b134b446b4f17fac2b4eaba374cdcd16e7c90e7e3789c5309da5d9d7d459cc67dac9314d5ad086e26c407fdb
 # d0b95c0ba9cea1d9a3d469dc751aee7d431bc7e791e2cca73a148686df32dadfe5b280f035bf934432a84e21eda2437d
 # github reply+00651e6077be3878bdeac9a1aaca274225e9134c8d5f004a92cf000000011592170d92a169ce0eac3914
-# tested gAAAAABZg7RuoNV7wAMLCw4KupxhQILv6H50blmmMZZmyQ06qNhqd5MZCe1XAzBL92lukwgifIZ2gng-0Lr_LB66s2ftDlxGfrUvPllrvLupLFxv5tX1k_A=-97
+# tested gAAAAABZg7RuoNV7wAMLCw4KupxhQILv6H50blmmMZZmyQ06qNhqd5MZCe1XAzBL92lukwgifIZ2gng-0Lr_LB66s2ftDlxGfrUPllrvLupLFxv5tX1k_A=-97
+# xXWX+q7TDXGbjJmtXy7RGrZYaphLz0W77hXT9t+9dLk='b'fZ79zoYrqNZRpItdRTilIg==
+
+# reply+O8kT5ctk6YGq4ln6fsPinWxaaDYAh+od53LfNnpdpow=6FiLXAHsd7+n7iTqtCP5YA==@chat.globality.com
 def main():
     email = b"1b574a80-54c4-897d-8057-5bacc4b844e8000000000000"
     email2 = b"1b574a80-54c4-897d-8057-5bacc4b844e8.03ef77cc-0ceb-4a10-9e96-e4f4e02347d60000000"
@@ -47,6 +50,8 @@ def convert_aes_token(token):
 
 def convert_fernet_token(token):
     # return token.decode("utf-8")
+    print("a=", token.hex())
+    print("b=", token)
     return token.hex()
 
 

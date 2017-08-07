@@ -11,6 +11,8 @@ from cryptography.hazmat.backends import default_backend
 # xXWX+q7TDXGbjJmtXy7RGrZYaphLz0W77hXT9t+9dLk='b'fZ79zoYrqNZRpItdRTilIg==
 
 # reply+O8kT5ctk6YGq4ln6fsPinWxaaDYAh+od53LfNnpdpow=6FiLXAHsd7+n7iTqtCP5YA==@chat.globality.com
+# https://juvenal.dev.globality.io/api/v2/company?name=Seth%20123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+# https://juvenal.dev.globality.io/api/v2/company/reply+O8kT5ctk6YGq4ln6fsPinWxaaDYAh+od53LfNnpdpow=6FiLXAHsd7+n7iTqtCP5YA==@chat.globality.com
 def main():
     email = b"1b574a80-54c4-897d-8057-5bacc4b844e8000000000000"
     email2 = b"1b574a80-54c4-897d-8057-5bacc4b844e8.03ef77cc-0ceb-4a10-9e96-e4f4e02347d60000000"
